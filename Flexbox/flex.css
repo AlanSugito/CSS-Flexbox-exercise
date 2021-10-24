@@ -1,0 +1,261 @@
+body {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+/* display flex */
+.container {
+  width: 400px;
+  display: flex;
+  border: 3px solid black;
+  padding: 10px;
+}
+.container div {
+  background-color: burlywood;
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+/* display flex */
+/* Flex-direction */
+.container-dua {
+  width: 400px;
+  display: flex;
+  border: 3px solid black;
+  padding: 10px;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.box {
+  display: flex;
+}
+.container-dua div {
+  background-color: burlywood;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.container-tiga {
+  width: 400px;
+  display: flex;
+  border: 3px solid black;
+  padding: 10px;
+  flex-direction: row;
+}
+.container-tiga div {
+  background-color: burlywood;
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+/* Flex-direction */
+/* Justify-content */
+.box-dua {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-empat {
+  width: 400px;
+  display: flex;
+  border: 3px solid black;
+  padding: 10px;
+  justify-content: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.container-empat div {
+  background-color: burlywood;
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+.container-lima {
+  width: 600px;
+  display: flex;
+  border: 3px solid black;
+  padding: 10px;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.container-lima div {
+  background-color: burlywood;
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+.container-enam {
+  width: 600px;
+  display: flex;
+  border: 3px solid black;
+  padding: 10px;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+.container-enam div {
+  background-color: burlywood;
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+.container-tujuh {
+  width: 600px;
+  display: flex;
+  border: 3px solid black;
+  padding: 10px;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.container-tujuh div {
+  background-color: burlywood;
+  width: 150px;
+  height: 150px;
+}
+.container-delapan {
+  width: 600px;
+  display: flex;
+  border: 3px solid black;
+  padding: 10px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.container-delapan div {
+  background-color: burlywood;
+  width: 150px;
+  height: 150px;
+}
+.container-sembilan {
+  width: 600px;
+  display: flex;
+  border: 3px solid black;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.container-sembilan div {
+  background-color: burlywood;
+  width: 150px;
+  height: 150px;
+}
+
+/* Justify-content */
+/* Align-items */
+.box-tiga {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-sepuluh {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  border: 3px solid black;
+  padding: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.container-sepuluh div {
+  background-color: burlywood;
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+.container-sebelas {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  border: 3px solid black;
+  padding: 10px;
+  align-items: stretch;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.container-sebelas div {
+  background-color: burlywood;
+  width: 150px;
+  margin-right: 10px;
+}
+.container-duabelas {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  border: 3px solid black;
+  padding: 10px;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.container-duabelas div {
+  background-color: burlywood;
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+.container-tigabelas {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  border: 3px solid black;
+  padding: 10px;
+  align-items: flex-end;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.container-tigabelas div {
+  background-color: burlywood;
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+/* Align-items */
+/* flex-wrap */
+.box-empat {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-empatbelas {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  border: 3px solid black;
+  padding: 10px;
+  flex-wrap: nowrap;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.container-empatbelas div {
+  background-color: burlywood;
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+.container-limabelas {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  border: 3px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.container-limabelas div {
+  background-color: burlywood;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.container-enambelas {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  border: 3px solid black;
+  padding: 10px;
+  flex-wrap: wrap-reverse;
+  overflow: hidden;
+}
+.container-enambelas div {
+  background-color: burlywood;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+/* flex-wrap */
